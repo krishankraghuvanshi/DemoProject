@@ -1,0 +1,31 @@
+{
+  "name": "demoproject",
+  "version": "1.0.0",
+  "description": "This is just for demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krishankraghuvanshi/DemoProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krishankraghuvanshi/DemoProject/issues"
+  },
+  "homepage": "https://github.com/krishankraghuvanshi/DemoProject#readme",
+  "dependencies": {
+    "body": "^5.1.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "mongoose": "^8.15.1",
+    "parser": "^0.1.4",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
